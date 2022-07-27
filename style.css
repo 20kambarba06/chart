@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.header_div{
+    margin-right: 80px;
+    width: 350px;
+    height: 160px;
+    border-radius: 8px;
+    border: 1px solid   rgb(124, 0, 240);
+}
+
+.div_p{
+    color: rgb(124, 0, 240);
+    font-size: 18px;
+    padding-top: 18px;
+    padding-left: 280px;
+    font-weight: bold;
+}
+
+.div_p_minus{
+    color: red;
+    font-size: 18px;
+    padding-top: 18px;
+    padding-left: 280px;
+    font-weight: bold;
+}
+
+.div_bottom{
+    width: 350px;
+    height: 80px;
+    margin-top: 35px;
+    display: flex;
+}
+
+.div_p_two{
+    padding-left: 10px;
+    color:  rgb(124, 0, 240);
+}
+
+.div_p_three{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.for_canvas{
+    width: 150px;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+.father {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+}
+
+.left {
+    width: 65%;
+    height: 1200px;
+}
+
+.top {
+    width: 100%;
+    height: 50%;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.p_header {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 60px;
+    padding-right: 900px;
+}
+
+.img_header{
+    cursor: pointer;
+    width: 32px;
+}
+
+.canvas_top {
+    width: 900px;
+    height: 420px;
+    background-color: white;
+}
+
+.bottom {
+    margin-top: 30px;
+    width: 100%;
+    height: 50%;
+}
+
+.right {
+    width: 35%;
+    height: 1200px;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.right_p{
+    color: rgb(124, 0, 240);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.canvas{
+    margin-top: 15px;
+    width: 470px;
+    height: 470px;
+    border: 1px solid rgb(124, 0, 240);
+    margin-bottom: 60px;
+}
